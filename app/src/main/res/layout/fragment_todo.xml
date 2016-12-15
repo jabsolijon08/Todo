@@ -1,13 +1,15 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.training.android.prelimexam.TodoFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="To Do"/>
-
-</FrameLayout>
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/lvTask" />
+</RelativeLayout>
